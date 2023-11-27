@@ -85,32 +85,53 @@ function serverMessage(response2) {
   }, 100 + (Math.random() * 20) * 100);
 
 }
-
-
-function fetchmsg(){
-
-     var url = 'https://localhost:5000/send-msg';
-      
-      const data = new URLSearchParams();
-      for (const pair of new FormData(document.getElementById("mymsg"))) {
-          data.append(pair[0], pair[1]);
-          console.log(pair)
+function fetchmsg() {
+  var url = "/send-msg";
+  const data = new FormData(document.getElementById("mymsg"));
+  fetch(url, {
+    method: "POST",
+    body: data,
+  })
+    .then((response) => {
+      if (!response.ok) {
+        throw new Error("Network response was not ok");
       }
+      return response.json();
+    })
+    .then((response) => {
+      console.log(response);
+      serverMessage(response.Reply);
+      speechSynthesis.speak(new SpeechSynthesisUtterance(response.Reply));
+    })
+    .catch((error) => {
+      console.error("Error:", error);
+    });
+}
+
+// function fetchmsg(){
+
+//      var url = '/send-msg';
+      
+//       const data = new URLSearchParams();
+//       for (const pair of new FormData(document.getElementById("mymsg"))) {
+//           data.append(pair[0], pair[1]);
+//           console.log(pair)
+//       }
     
-      console.log("abc",data)
-        fetch(url, {
-          method: 'POST',
-          body:data
-        }).then(res => res.json())
-         .then(response => {
-          console.log(response);
-          serverMessage(response.Reply);
-          speechSynthesis.speak( new SpeechSynthesisUtterance(response.Reply))
+//       console.log("abc",data)
+//         fetch(url, {
+//           method: 'POST',
+//           body:data
+//         }).then(res => res.json())
+//          .then(response => {
+//           console.log(response);
+//           serverMessage(response.Reply);
+//           speechSynthesis.speak( new SpeechSynthesisUtterance(response.Reply))
         
           
-         })
-          .catch(error => console.error('Error h:', error));
+//          })
+//           .catch(error => console.error('Error h:', error));
 
-}
+// }
 
 
