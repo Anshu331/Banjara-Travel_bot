@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "banjara-eciq",
+  "private_key_id": "1b3a92c4d766864681cc6fb07a0ff47304bde852",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQC3V3uaetabmBId\nlWANKvUAWX5QAvdNkR0JRbAQvUu8NUORgLfeertaBVEOxWZS/8dDUPkz5uJyWuP8\nLk4VtsFyxTvjsJvNmF8Dr/8SZXyQBHtKCuYfy7V5qvMxXLsEpz+ioDNU3eFxjXrw\n/weYu/atBVFjhF7AZn0+Y2PzEEnQ3HKa80rhjYEFE8dHeMEvMfRq4gRAgCaTjHWm\niWZKj38v5u86ePeQORlz6RBiBVto1/8yzcwNMSBuCHqxApBwpO/RMkrYrv2jhd2y\nrD+VUNXgaoyjyMq33GcEWtrPGvoKPmhWhalJU1eFJzXEucpt5eqz5wFYM5zl2Euo\nL4/d8vijAgMBAAECggEAPHyeuUz8f5HQrDTrXvzEnsxnuVL5LvyIpVX569Pf6CR0\nec0LHFnGdMEbSHHEu+5J2cIdrUtnew3UeI74UP6d3NUIWKqcBFzYP/mw/+s+iK8J\n09g7qtLEuPK20BrFUpgxDOCofr/DEHj6Tgb9hRzCGbwO6XOy5OwLNumIgJjnmYGI\nWNGctjzjM8UC733ftR8jcE3YGqMDlGhDbTZ8Noh0xyfBiKF8liLNYb9f5ne9Celq\nbWvJCHSX1ailNmsFCP9u3pdhYKLvEVg3uNGtMbDXbzuGwri5SgeUBtfI3/FG6I5A\nuZHTlKW60CzW2phge9OqCp8+bfrb+hSgwDBIvb2eAQKBgQD/3RxOf2VlhKPbB2V7\nWRhD6GrwyOqDJS45m54abeq5LPPzhWORlARhyVNldK6yqWlLhQGkRBB6jXS9EzLR\nGMPoreFYeJDEkeGo7crqRleqV8mG5T6Io+G23PtnsQTACcYVVcuUv6Nw9AsscPDo\nKaBcyYEZdHiEgxZRbTcTKOoKowKBgQC3cHuy1zNSGCpFb4C/5svyZ/zGcRnG4xtq\nxpLJa27PBsLhdxa4zhQOcQz79Nr1wnzaR4nJVafhu1KUlX251mJ0Blu9R0qrCcCo\nMotKk7jlD42NMRTAUdtk5jaZT5aduIop9JcXTwieZZbslJOk4SOUslN4YI6nca/S\nnZweIOA6AQKBgQCop1fkSkdM/nx/gMWc4+KByK7NHrKuVZC9ul0h8Lga7Y20RIWY\nTSgCSRGmu533+IGGnRqy64atMZb0lrYVbCyesBbtGTPbzokfr/bkLA/XIdyeBXgN\n23CJ9+njtKR77TVblN0HpLaYWtUOqzew4Ndqsgxd+g8C0eGhNMtr3rk+3wKBgQCV\n175TwlJbtv2gpoqHN2JVavgiqXSi8BUPTZHOEoH7fsxmHD9lSoE7osE2dzb9FZej\nPlihK+TtEXVNhiejTCo0GJWLsdaejGLhghgiHTUld2TrdrI6vyL18s+awFaKE5pY\n10EsexTRPq7gJiXMw1OrPVfNtyIQSV+ULca/HZ/MAQKBgQC7xCCune3eAyJX7SAG\n2yCeZgyEueSZv/VfGvjHNJEXcbT/REKjYn1oEwiKnn3x1hQki7GCvFzDRWqRtYlJ\n0nP6Y3fH0l64o0YDe63BGAZB/dwSDL2LIO8amibMXOA7Br4nd8SEHtbhJzLY1WNU\nl6rtH7/V5W4eTOfuIS9SDeD/vw==\n-----END PRIVATE KEY-----\n",
+  "client_email": "travel-uk@banjara-eciq.iam.gserviceaccount.com",
+  "client_id": "101102010419765452320",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/travel-uk%40banjara-eciq.iam.gserviceaccount.com"
+}
