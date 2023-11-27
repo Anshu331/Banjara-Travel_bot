@@ -77,4 +77,4 @@ async function runSample(msg, projectId = 'banjara-eciq') {
 
 app.listen(port, () => {
   console.log(`Running on port ${port}`);
-}); 
+});
