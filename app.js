@@ -39,7 +39,7 @@ app.post('/send-msg',(req,res)=>{
 async function runSample(msg,projectId = 'banjara-eciq') {
   
   // Create a new session
-  const sessionClient = new dialogflow.SessionsClient({keyFilename:"D:/MY_WORKPLACE/New-bot/banjara-eciq-1b3a92c4d766.json"});
+  const sessionClient = new dialogflow.SessionsClient({keyFilename:"./banjara-eciq-1b3a92c4d766.json"});
   const sessionPath = sessionClient.projectAgentSessionPath(
     projectId,
     sessionId
